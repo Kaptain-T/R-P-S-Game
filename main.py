@@ -4,7 +4,7 @@ import random
 
 
 #Printing Intro for the game
-print ("\n                    Welcome to Rock-Paper-Scissors Game! \n\n Kindly read below the instructions for the game before you begin. \n")
+print ("\n                    Welcome to Kaptain-T's Rock-Paper-Scissors Game! \n\n Kindly read below the instructions for the game before you begin. \n")
 print ("  At the start of the game, you are to make a selection - R for Rock, P for Paper, S for Scissors. \n  The game is played between you and the computer. The first to get three points wins the game. \n  Note: One point per round but no point for a tie!")
 computeroptions = ["Rock", "Paper", "Scissors"]
 optionsdict = {"R" : "Rock", "P" : "Paper", "S" : "Scissors"}
@@ -87,7 +87,7 @@ def again():
         
 
     else:
-        print("That's not what I asked. Y OR N!")
+        print("That's not what I asked. Y OR N?")
         again()
         
 #initialising a start
